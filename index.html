@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Lora&display=swap" as="style">
+    <meta name="description" content="A simple website that gives you a random quote.">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://cdn.pixabay.com/">
+    <meta name="theme-color" content="#000000"/>
     <link rel="icon" type="image/x-icon" href="favicon.png">
     <link rel="manifest" href="manifest.json">
     <title>Quoted • Your Daily Quote</title>
@@ -18,7 +21,7 @@
     <script src="script.js"></script>
     <script>
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw.js');
+            navigator.serviceWorker.register('sw.js');
         }
     </script>
 </body>
