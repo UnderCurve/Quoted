@@ -1,7 +1,7 @@
 {
         "name": "Quoted • Your Daily Quote",
         "short_name": "Quoted",
-        "start_url": "/",
+        "start_url": "/Quoted",
         "icons": [
             {
               "src": "icons/manifest-icon-192.maskable.png",
