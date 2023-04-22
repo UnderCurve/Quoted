@@ -8,8 +8,8 @@ body {
     font-family: Lora;
 }
 
-#text-shadow {
-    text-shadow: 0px 0px 10px black;
+.text-shadow {
+    text-shadow: 0px 0px 5px black;
 }
 
 .quote-footer {
@@ -17,16 +17,31 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-  
+
 #new-quote-btn {
-    padding: 8px 16px;
-    background-color: rgba(255, 255, 255, 0);
-    color: rgb(255, 255, 255);
-    border-color: white;
-    border-radius: 1rem;
-    cursor: pointer;
-    outline: none;
+  padding: 8px 16px;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  border-radius: 1rem;
+  cursor: pointer;
 }
+
+.author {
+  margin-right: 1rem;
+}
+
+@media (max-width: 768px) {
+  .quote-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .author {
+    margin-bottom: 1rem;
+  }
+}
+  
 
 .center {
     position: absolute;
