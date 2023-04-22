@@ -6,7 +6,26 @@ body {
     background-attachment: fixed;
     color: white;
     font-family: Lora;
+}
+
+#text-shadow {
     text-shadow: 0px 0px 10px black;
+}
+
+.quote-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+#new-quote-btn {
+    padding: 8px 16px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    border-color: white;
+    border-radius: 1rem;
+    cursor: pointer;
+    outline: none;
 }
 
 .center {
